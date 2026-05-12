@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="300" height="600"></canvas>
+        
+        <div class="ui-panel">
+            <h1 class="neon-title">NEON<br>TETRIS</h1>
+            
+            <div class="stats-box">
+                <p>SCORE</p>
+                <h2 id="score">0</h2>
+            </div>
+            
+            <div class="stats-box">
+                <p>LEVEL</p>
+                <h2 id="level">1</h2>
+            </div>
+
+            <div class="stats-box">
+                <p>LINES</p>
+                <h2 id="lines">0</h2>
+            </div>
+
+            <button id="startBtn">START GAME</button>
+
+            <div class="controls-help">
+                <p><strong>[←] [→]</strong> Pindah</p>
+                <p><strong>[↑]</strong> Rotasi</p>
+                <p><strong>[↓]</strong> Turun Cepat</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
