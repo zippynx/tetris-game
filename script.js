@@ -247,3 +247,4 @@ startBtn.addEventListener('click', () => {
     lastTime = performance.now();
     update();
 });
+   
